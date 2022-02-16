@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="text_size">
+        <item>เล็ก</item>
+        <item>กลาง</item>
+        <item>ใหญ่</item>
+    </string-array>
+
+    <!-- Background -->
+    <string-array name="background">
+        <item>Normal</item>
+        <item>Sky</item>
+        <item>Dark</item>
+    </string-array>
+
+    <!-- Sound -->
+    <string-array name="sound">
+        <item>เสียง1</item>
+        <item>เสียง2</item>
+        <item>เสียง3</item>
+    </string-array>
+
+    <!-- Bubble -->
+    <string-array name="BubbleColor">
+        <item>สีขาว</item>
+        <item>สีเขียว</item>
+    </string-array>
+
+
+    <!-- Language -->
+    <string-array name="Language">
+        <item>ภาษาไทย</item>
+        <item>ภาษาอังกฤษ</item>
+    </string-array>
+</resources>

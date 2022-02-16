@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Size -->
+    <string-array name="text_size">
+        <item>Small</item>
+        <item>Middle</item>
+        <item>Big</item>
+    </string-array>
+
+
+    <!-- Background -->
+    <string-array name="background">
+        <item>Fire</item>
+        <item>Sky</item>
+        <item>Lemon</item>
+    </string-array>
+
+    <!-- Bubble -->
+    <string-array name="BubbleColor">
+        <item>White</item>
+        <item>Green</item>
+    </string-array>
+
+
+    <!-- Language -->
+    <string-array name="Language">
+        <item>Thai</item>
+        <item>English</item>
+    </string-array>
+</resources>

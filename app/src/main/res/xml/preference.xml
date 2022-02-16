@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="ตั้งค่าโปรไฟล์">
+
+        <EditTextPreference
+            android:defaultValue="User"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="ชื่อผู้ใช้" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="ตั้งค่าแอปพลิเคชัน">
+
+        <!--<ListPreference-->
+        <!--android:defaultValue="Thai"-->
+        <!--android:entries="@array/Language"-->
+        <!--android:entryValues="@array/Language"-->
+        <!--android:key="list_preference_Language"-->
+        <!--android:title="Language" />-->
+        <ListPreference
+            android:defaultValue="เสียง1"
+            android:entries="@array/sound"
+            android:entryValues="@array/sound"
+            android:key="list_sound"
+            android:summary="Change background color"
+            android:title="เสียง" />
+        <ListPreference
+            android:defaultValue="กลาง"
+            android:entries="@array/text_size"
+            android:entryValues="@array/text_size"
+            android:key="list_preference_text_size"
+            android:summary="Adjust font size"
+            android:title="ขนาดตัวอักษร" />
+        <ListPreference
+            android:defaultValue="Normal"
+            android:entries="@array/background"
+            android:entryValues="@array/background"
+            android:key="listpref_bg"
+            android:summary="Change background color"
+            android:title="สีพื้นหลัง" />
+        <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:key="switch_preference_1"-->
+        <!--android:title="Sound" />-->
+    </PreferenceCategory>
+</PreferenceScreen>
